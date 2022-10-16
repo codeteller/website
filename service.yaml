@@ -1,0 +1,10 @@
+apiVersion: v1 
+kind: Service 
+metadata:
+  name: apache
+spec:
+  ports:
+  - targetPort: 30008 
+    port: 80 
+  selector: 
+    app: apache
