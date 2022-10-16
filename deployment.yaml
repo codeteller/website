@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: custom
-          image: talmeezfaizy/capstone_prj_2
+          image: talmeezfaizy/capstone_proj_2
           ports:
             - containerPort: 80
